@@ -1,0 +1,194 @@
+body {
+  font-family: 'Ropa Sans', sans-serif;
+  margin: 0;
+}
+
+header {
+  box-shadow: 0 0 20px #ccc;
+  margin: 0;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  width: 100%;
+  max-width: 1250px;
+  padding: 0 15px;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: #777;
+  padding-right: 8px;
+  font-size: 40px;
+}
+
+header p {
+  color: #AAAAAA;
+  font-size: 14px;
+}
+
+.menu-icon {
+  width: 30px;
+  margin-left: auto;
+}
+
+
+.carrousel img{
+  max-width: 1280px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.highlight {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  margin-bottom: 50px;
+}
+
+.highlight-item {
+  background-color: #EEE;
+  width: 100%;
+  max-width: 550px;
+  margin-bottom: 20px;
+}
+
+.highlight-item img {
+  max-width: 550px;
+  width: 100%;
+}
+
+.highlight h3,
+.highlight p {
+  margin: 0;
+  padding: 20px;
+  text-align: justify;
+}
+
+.highlight h3 {
+  font-size: 40px;
+  color: #888;
+  font-weight: 400;
+  padding-bottom: 0;
+}
+
+.highlight p {
+  color: #555;
+}
+
+.price-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.new, .sale {
+  align-self: center;
+  color: #FFF;
+  font-size: 24px;
+  padding: 6px 16px;
+  border-radius: 18px;
+  border: none;
+  margin-right: 15px;
+}
+
+.new {
+  background: #51D275;
+}
+
+.sale {
+  background: rgb(255, 163, 24);
+}
+
+.styles {
+  display: flex;
+  flex-direction: column;
+}
+
+.styles h2 {
+  color: #888;
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+  margin-top: 0;
+}
+
+.styles h3 {
+  color: #FFF;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.industrial {
+  display: flex;
+  background-image: url("img/style1.png");
+  opacity: 0.6;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.industrial:hover {
+  opacity: 1;
+}
+
+.modern {
+  display: flex;
+  background-image: url("img/style2.png");
+  opacity: 0.6;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.modern:hover {
+  opacity: 1;
+}
+
+.classic {
+  display: flex;
+  background-image: url("img/style3.png");
+  background-position: center;
+  opacity: 0.6;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.classic:hover {
+  opacity: 1;
+}
+
+
+footer {
+  display: flex;
+  background-color: #333333;
+  color: #FFF;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+  font-size: 20px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.map {
+  width: 400px;
+}
+
+.icon {
+  width: 35px;
+  margin: 0;
+  padding-right: 8px;
+}
